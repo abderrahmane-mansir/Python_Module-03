@@ -19,6 +19,7 @@ def main() -> None:
     print("Total Score: ", total)
     print("Average Score: ", total / len(scores) if scores else 0)
 
+
 if __name__ == "__main__":
     try:
         main()
