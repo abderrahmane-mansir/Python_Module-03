@@ -86,10 +86,9 @@ def main() -> None:
     print("Total unique achievements:", total_unique_achievements)
     print("Average score:", average_score)
     print(
-        "Top performer:",
-        top_player,
-        "(" + str(scores[top_player]) + " points,",
-        str(len(achievements[top_player])) + " achievements)"
+        "Top performer:", top_player,
+        f"({scores[top_player]} points,",
+        f"{len(achievements[top_player])} achievements)"
     )
 
 
