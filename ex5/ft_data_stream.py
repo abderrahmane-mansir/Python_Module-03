@@ -102,5 +102,5 @@ def main() -> None:
 if __name__ == "__main__":
     try:
         main()
-    except Exception as e:
+    except BaseException as e:
         print("An error occurred:", e)
