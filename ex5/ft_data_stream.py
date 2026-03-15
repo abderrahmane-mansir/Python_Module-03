@@ -71,8 +71,8 @@ def main() -> None:
         elif "destroyed" in event:
             counter["Destroyed"] += 1
 
-        r = sum(range(1600))
-        r += sum(range(1400))
+        r = sum(range(1750))
+        r += sum(range(1450))
 
         if i <= 3:
             print(f"Event {i}: Player {player} (level {level}) {event}")
