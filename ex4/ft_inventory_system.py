@@ -77,3 +77,5 @@ if __name__ == "__main__":
         main()
     except Exception as e:
         print("An error occurred:", e)
+        print("Usage: python3 ft_inventory_system.py"
+              " item1:qty1 item2:qty2 ...")
