@@ -15,7 +15,7 @@ class Player:
         return self.achievements
 
 
-def main():
+def main() -> None:
     print("=== Achievement Tracker System ===\n")
 
     try:
